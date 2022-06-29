@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@layer base{
+    body{
+        color:#fff;
+        font-family: 'Open Sans',sans-serif;
+    }
+    li{
+        @apply p-4 
+     
+    }
+    button{
+        @apply text-white bg-span-color border-span-color
+        hover:bg-transparent hover:text-span-color rounded-md
+        hover:transition-all
+    }
+    a{
+        @apply hover:text-span-color
+        hover:transition-all
+        
+    }
+}

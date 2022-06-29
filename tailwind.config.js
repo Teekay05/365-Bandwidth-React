@@ -1,0 +1,25 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}"
+  ],
+  theme: {
+    extend: {
+      colors:{
+        'span-color': '#d73d83',
+      },
+      backgroundColor:{
+        'bg-Color':'#af69ed',
+      },
+    },
+
+    screens:{
+      sm:'640px',
+      md:'768px',
+      lg:'1024px',
+      xl:'1280px',
+      '2xl': '1536px',
+    }
+  },
+  plugins: [],
+}
